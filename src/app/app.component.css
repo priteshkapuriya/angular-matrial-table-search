@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+  }
+  h1{
+    text-align: center;
+  }
+  .searchDiv{
+    margin-bottom: 20px;
+  }
+  input {
+    width: 30%;
+    border: 0;
+    border-bottom: 1px solid grey;
+    outline: 0;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+ input:focus {
+    padding-bottom: 6px;  
+    border-width: 1px;
+    border-color: blue;
+  }
+  .searchLabel{
+    margin-right: 10px;
+    margin-left: 20px;
+  }
